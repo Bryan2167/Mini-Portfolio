@@ -23,3 +23,7 @@ const themeToggle = document.getElementById("changeBtn");
 themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
+
+FormData.addEventListener("submit", function (event) {
+  event.preventDefault();
+});
