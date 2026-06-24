@@ -35,3 +35,11 @@ footer {
   border-radius: 5px;
   cursor: pointer;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Segoe UI", sans-serif;
+  max-width: 300px;
+}
